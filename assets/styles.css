@@ -1,0 +1,86 @@
+html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgba(250, 243, 243, 0.979);
+}
+h1{
+    text-align: center;
+}
+.principal{
+    display: flex;
+    padding: 20px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    flex: 1;    
+}
+li{
+    list-style: none;
+}
+.profile{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 80px;
+}
+
+p{
+    text-align: justify;
+    margin: 0;
+}
+
+.projectsList > li{
+    border: 1px solid sandybrown;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.projectsList  a, .descarga a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: rgb(182, 179, 179);
+    border-radius: 20px;
+    font-weight: bold;  
+}
+
+.titleProjects{
+    margin: 20px;
+}
+
+.miniature{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+}
+
+.contact li p{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.descarga{
+    justify-content: center;
+    display: flex;
+}
+@media (min-width: 500px){
+    .picture{
+        display: flex;
+           
+    }
+    .profile{
+        width: 30vh;
+        height: 30vh;
+        border-radius: 100px;
+    }
+} 
